@@ -5,11 +5,10 @@ import { Enemy } from "./enemy";
 
 const spider = plainToClass(Enemy, {
   name: "spider",
-  level: 12,
+  level: 10,
   emoji: "🕷",
   attackName: "bites",
+  skills: [{ name: "skill1" }],
 });
-
-console.log(spider);
 
 validate(spider).then((errors) => console.log(errors));
