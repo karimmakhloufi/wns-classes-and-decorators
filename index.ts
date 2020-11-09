@@ -10,4 +10,6 @@ const spider = plainToClass(Enemy, {
   attackName: "bites",
 });
 
+console.log(spider);
+
 validate(spider).then((errors) => console.log(errors));
