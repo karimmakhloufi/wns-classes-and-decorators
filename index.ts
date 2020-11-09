@@ -1,4 +1,4 @@
-import { Enemy } from "./enemy.js";
+import { Enemy } from "./enemy";
 
 console.log("Hello from node");
 
